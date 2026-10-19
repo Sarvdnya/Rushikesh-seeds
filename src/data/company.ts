@@ -39,8 +39,8 @@ export const company = {
   footerIntro:
     'A young, quality-focused seed company from Jalna, Maharashtra — working on vegetable and field crop seeds, careful processing, dependable packaging and closer support for farmers.',
   phone: {
-    display: '+91 74472 99519',
-    tel: '+917447299519',
+    display: '+91 80104 61228',
+    tel: '+918010461228',
   },
   email: 'rushikeshseeds2022@gmail.com',
   address: {
@@ -64,10 +64,11 @@ export type NavLink = { label: string; href: string };
 export const navLinks: NavLink[] = [
   { label: 'Home', href: '#home' },
   { label: 'About Us', href: '#about' },
-  { label: 'Solutions', href: '#seeds' },
-  { label: 'Quality', href: '#offerings' },
-  { label: 'Leadership', href: '#leadership' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Our Solutions', href: '#seeds' },
+  { label: 'Our Offerings', href: '#offerings' },
+  { label: 'Market Insights', href: '#market' },
+  { label: 'Growth Plan', href: '#scaleup' },
+  { label: 'Contact Us', href: '#contact' },
 ];
 
 export type Offering = {

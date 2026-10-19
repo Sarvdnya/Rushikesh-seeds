@@ -66,7 +66,7 @@ function RevenueCard({ index }: { index: number }) {
 
 export default function RevenueStrategySection() {
   return (
-    <section id="revenue" className="section-pad bg-cream">
+    <section id="revenue" className="section-pad bg-mint">
       <div className="container-x">
         <Reveal>
           <div className="flex items-center gap-3 sm:gap-4">

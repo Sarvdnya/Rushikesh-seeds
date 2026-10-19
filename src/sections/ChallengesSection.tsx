@@ -11,7 +11,7 @@ const icons = {
 
 export default function ChallengesSection() {
   return (
-    <section id="challenges" className="section-pad relative overflow-hidden bg-mint">
+    <section id="challenges" className="section-pad relative overflow-hidden bg-sage">
       <div
         className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-leaf/15 blur-3xl"
         aria-hidden="true"

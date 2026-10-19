@@ -12,7 +12,7 @@ const icons = {
 
 export default function SolutionsSection() {
   return (
-    <section id="seeds" className="section-pad bg-white">
+    <section id="seeds" className="section-pad bg-sand">
       <div className="container-x">
         <Reveal>
           <div className="flex items-center gap-3 sm:gap-4">

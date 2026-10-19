@@ -7,7 +7,7 @@ export default function Footer() {
   const verifiedSocials = socials.filter((social) => social.url.trim().length > 0);
 
   return (
-    <footer className="bg-forest-deep text-white">
+    <footer className="bg-charcoal text-white">
       <div className="container-x py-16">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4 lg:gap-8">
           <div>

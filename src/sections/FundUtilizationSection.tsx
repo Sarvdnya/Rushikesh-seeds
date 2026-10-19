@@ -23,7 +23,7 @@ export default function FundUtilizationSection() {
   const chartLabel = allocations.map((a) => `${a.area} ${a.value}%`).join(', ');
 
   return (
-    <section id="fund" className="section-pad bg-cream">
+    <section id="fund" className="section-pad bg-sage">
       <div className="container-x">
         <Reveal>
           <div className="flex items-center gap-3 sm:gap-4">

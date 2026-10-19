@@ -64,7 +64,7 @@ function MarketPanel({ panel, mapSrc, mapAlt, mapFirst = false, delay = 0 }: Mar
 
 export default function MarketSizeSection() {
   return (
-    <section id="market" className="section-pad bg-white">
+    <section id="market" className="section-pad bg-mist">
       <div className="container-x">
         <Reveal>
           <div className="flex items-center gap-3 sm:gap-4">

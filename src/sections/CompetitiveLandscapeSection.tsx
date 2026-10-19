@@ -11,7 +11,7 @@ const columns = [
 
 export default function CompetitiveLandscapeSection() {
   return (
-    <section id="landscape" className="section-pad bg-white">
+    <section id="landscape" className="section-pad bg-stone">
       <div className="container-x">
         <Reveal>
           <div className="flex items-center gap-3 sm:gap-4">

@@ -11,7 +11,6 @@ import LeadershipSection from './sections/LeadershipSection';
 import MarketSizeSection from './sections/MarketSizeSection';
 import OurOfferingsSection from './sections/OurOfferingsSection';
 import RevenueStrategySection from './sections/RevenueStrategySection';
-import SocialSection from './sections/SocialSection';
 import SolutionsSection from './sections/SolutionsSection';
 import UspSection from './sections/UspSection';
 
@@ -41,7 +40,6 @@ export default function App() {
         <FundUtilizationSection />
         <LeadershipSection />
         <ContactSection />
-        <SocialSection />
       </main>
 
       <Footer />

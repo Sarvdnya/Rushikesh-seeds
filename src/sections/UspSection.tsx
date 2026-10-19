@@ -11,13 +11,13 @@ const icons = {
 
 export default function UspSection() {
   return (
-    <section id="usp" className="section-pad bg-cream">
+    <section id="usp" className="section-pad bg-forest">
       <div className="container-x">
         <Reveal>
           <div className="flex items-center gap-3 sm:gap-4">
             <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-accent" aria-hidden="true" />
             <span className="h-[2px] w-8 shrink-0 bg-accent sm:w-10" aria-hidden="true" />
-            <h2 className="font-display text-2xl font-extrabold tracking-tight text-forest sm:text-3xl">
+            <h2 className="font-display text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
               Key Distinctions: Our USP
             </h2>
             <span

@@ -23,7 +23,7 @@ function MilestoneBadge({ icon, number }: { icon: string; number: string }) {
 
 export default function AimToScaleSection() {
   return (
-    <section id="scaleup" className="section-pad bg-white">
+    <section id="scaleup" className="section-pad bg-ivory">
       <div className="container-x">
         <Reveal>
           <div className="flex items-center gap-3 sm:gap-4">
@@ -49,7 +49,7 @@ export default function AimToScaleSection() {
               <Reveal delay={index * 70} className="h-full">
                 <div className="group flex h-full flex-col items-center text-center">
                   <MilestoneBadge icon={milestone.icon} number={milestone.number} />
-                  <div className="mt-5 flex w-full flex-1 flex-col rounded-2xl border border-forest/10 bg-cream px-5 py-5 transition duration-300 group-hover:-translate-y-1 group-hover:border-brand/25 group-hover:shadow-[0_30px_60px_-45px_rgba(23,63,43,0.9)]">
+                  <div className="mt-5 flex w-full flex-1 flex-col rounded-2xl border border-forest/10 bg-white px-5 py-5 transition duration-300 group-hover:-translate-y-1 group-hover:border-brand/25 group-hover:shadow-[0_30px_60px_-45px_rgba(23,63,43,0.9)]">
                     <h3 className="font-display text-base font-extrabold leading-snug tracking-tight text-forest sm:text-[1.05rem]">
                       {milestone.title}
                     </h3>
@@ -76,7 +76,7 @@ export default function AimToScaleSection() {
                       />
                     )}
                     <MilestoneBadge icon={milestone.icon} number={milestone.number} />
-                    <div className="flex-1 rounded-2xl border border-forest/10 bg-cream px-4 py-4 text-left transition duration-300 group-hover:border-brand/25">
+                    <div className="flex-1 rounded-2xl border border-forest/10 bg-white px-4 py-4 text-left transition duration-300 group-hover:border-brand/25">
                       <h3 className="font-display text-base font-extrabold leading-snug tracking-tight text-forest">
                         {milestone.title}
                       </h3>
